@@ -1,0 +1,22 @@
+{
+  "name": "Kenneh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "paulino-s",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "babel-node index.js",
+    "nodemon":"nodemon --exec yarn start",
+    "lint": "eslint index.js"
+  }
+}
